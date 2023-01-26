@@ -1,0 +1,15 @@
+.MenuItem{
+  width:100%;
+  border: 2px solid rgb(197, 197, 197);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 0 10px;
+  box-sizing:border-box;
+  position: relative;
+  cursor: pointer;
+}
+
+.Title, .price{
+  font-weight: bold;
+}

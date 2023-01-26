@@ -1,0 +1,14 @@
+
+.EditableControl{
+  flex-direction: row;
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+}
+
+.ControlIcon{
+  margin: 0px 5px;
+  cursor: pointer;
+}

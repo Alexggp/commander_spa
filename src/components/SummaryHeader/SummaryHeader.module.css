@@ -1,0 +1,47 @@
+.FrontPage{
+  height: 300px;
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+
+.FrontPage img{
+  width: 100%; /* or any custom size */
+  height: 100%; 
+  object-fit:cover;
+}
+
+.Summary{
+  max-height: 450px;
+  min-height: 185px;
+  position: relative;
+  color: black;
+  box-sizing: border-box;
+  padding-top: 100px;
+  background-color: #fff;
+}
+
+.Avatar{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: lightyellow;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: -75px;
+  overflow: hidden;
+}
+.Avatar img{
+  width: 100%;
+  height: auto;
+}
+.Title{
+  font-size: 2em;
+  font-weight: bold;
+}
+.Subtitle{
+  margin:20px 20px;
+}
